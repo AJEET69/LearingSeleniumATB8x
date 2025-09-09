@@ -1,0 +1,25 @@
+package com.thetestingacademy.ex01_18122024;
+
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Test;
+
+public class Selenium01 {
+
+
+    @Test
+    public void Test_Selenium(){
+
+
+        // In Selenium 3 for firefox browser
+     //        System.setProperty("webdriver.gecko.driver", "path/to/firefoxdriver");
+
+        // Selenium 4
+        EdgeDriver driver = new EdgeDriver();
+        driver.get("https://app.vwo.com");
+
+
+
+    }
+
+
+}
